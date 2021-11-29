@@ -32,10 +32,6 @@ Sub BTN_ACCEPT()
     Case IsEmpty(Range("D2").Value) = True
       MsgBox "Job# Is A Required Field", vbCritical, "ERROR:"
       Exit Sub
-      
-      This is a test
-
-    This is another test
 
     '* <><><><><> IS HEAT # EMPTY LOGIC <><><><><>
     Case IsEmpty(Range("F2").Value) = True
